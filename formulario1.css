@@ -15,7 +15,7 @@
 
 body {
 
-    padding: 0px;
+    padding: 0px; 
     margin: 0px auto;
 
     display: flex;
@@ -184,6 +184,49 @@ button:hover {
     transition:.5s;
 }
 
+
+@media (min-width: 320px) {
+    body {
+        padding: 10px;
+        margin: 15% auto;
+
+        width: 100%;
+        height: 450px;
+    }
+} 
+
+@media (max-width: 1920px) {
+    body {
+        padding: 0px 10px;
+        margin: 7% auto;
+
+        width: 100%;
+        height: 450px;
+    }
+}
+
+@media (min-width:350px) {
+    form {
+        background-image: linear-gradient( to bottom, rgb(74, 181, 243), rgb(150, 135, 235));
+    
+        padding:45px 75px;
+        margin: 10% auto;
+    
+        width: 10%;
+        height: 450px;
+    
+        max-width: 320px;
+    
+        border-radius: 5px;
+    
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 800;
+        color: rgb(255, 255, 255);
+    
+        box-shadow: 4px 2px 3px rgba(63, 62, 62, 0.342);
+    }
+
+}
 @media (max-width:1920px) {
     form {
         background-image: linear-gradient( to bottom, rgb(74, 181, 243), rgb(150, 135, 235));
